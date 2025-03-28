@@ -16,5 +16,6 @@ print("Çevre: " + str(cevre))
 print("-----Aplication2-----")
 
 km = float(input("km: "))
-mile = km * 1.609344
+mile = km / 1.609344 
+mile = round(mile,2)
 print("Mil: " + str(mile))
