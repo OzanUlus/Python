@@ -6,7 +6,7 @@ print(time)
 
 print(title[:6])
 
-print(title[:6] + " " + title[18:25])
+print(title[:6] + " " + title[-7:])
 
 print(title[::-1])
 
