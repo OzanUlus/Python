@@ -32,11 +32,11 @@
 #     i += 1
 
 while True:
-    username = input("Kullanıcı adını girin: ").strip()  # Başındaki ve sonundaki boşlukları temizler
-    if " " in username:  # Eğer boşluk içeriyorsa
+    username = input("Kullanıcı adını girin: ").strip()  
+    if " " in username:  
         print("Kullanıcı adı boşluk içeremez! Tekrar deneyin.")
-        continue  # Başa döner
-    break  # Geçerli bir username girildiğinde döngüden çıkar
+        continue  
+    break  
 
 print(f"Kullanıcı adı başarıyla kaydedildi: {username}")
         
