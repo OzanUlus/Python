@@ -12,8 +12,7 @@ def menu(number):
         sendMoney(moneyAmount)
     else:
         print("YAnlış seçim yaptınız.")
-
-        
+               
 
 
 
