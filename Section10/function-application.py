@@ -18,7 +18,7 @@ def dikdörtgenAlan(a,b):
     return a * b
 
 def dikdörtgenCevre(a,b):
-    return 2 * a * b
+    return 2 * (a + b)
 
 print(dikdörtgenAlan(10,15))
 print(dikdörtgenCevre(10,15))
